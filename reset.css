@@ -1,0 +1,93 @@
+/* Resetowanie CSS */
+
+/* Ogólne zresetowanie */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Usunięcie punktowania w liście */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Nadanie stylu podstawowym elementom */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Resetowanie linków */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Nadpisanie stylów linków odnośników */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Resetowanie marginesu wewnętrznego dla nagłówków i paragrafów */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* Resetowanie wielkości czcionki dla nagłówków */
+h1,
+h2,
+h3 {
+  font-size: inherit;
+}
+
+/* Resetowanie stylów listy wypunktowanej i numerowanej */
+ul,
+ol {
+  padding-left: 0;
+}
+
+/* Resetowanie marginesu na elementach przed i po */
+/* (na przykład na pierwszym i ostatnim elemencie listy lub kontenera) */
+li:first-child,
+li:last-child {
+  margin: 0;
+}
+
+/* Resetowanie marginesu dla elementów w formularzach */
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font: inherit;
+}
+
+/* Resetowanie stylów dla przycisków */
+button {
+  background: none;
+  cursor: pointer;
+}
+
+/* Resetowanie wyglądu formularza */
+form {
+  display: block;
+}
+
+/* Resetowanie wyglądu przycisków dla różnych przeglądarek */
+button,
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  appearance: button;
+}
